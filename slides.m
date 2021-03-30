@@ -20,5 +20,3 @@ error = normrnd(0,1,[1 size(x,2)]);
 y = b0 + b1*x + error;
 plot(x,y);
 hold off
-
-%% Slide 4
