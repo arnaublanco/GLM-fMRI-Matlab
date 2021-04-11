@@ -4,7 +4,7 @@ close all;
 %% Data import
 
 V = niftiread('bold.nii.gz'); % Load NiFTI file
-dm = readDM('design_matrix.txt',5);
+dm = readmatrix('design_matrix.txt');
 
 %% GLM computation
 

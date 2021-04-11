@@ -21,4 +21,4 @@ for i = 1:size(conds,2)
 end
 
 dir_dm = 'design_matrix.txt';
-dlmwrite(dir_dm,dm_cond,'delimiter','\t');
+writematrix(dir_dm,dm_cond,'delimiter','\t');
